@@ -467,7 +467,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="contact-block">
                 <h2>Me mande uma mensagem!</h2>
-                <form id="contactForm" action="enviar.php" method="POST">
+                <form id="contactForm" action="https://formspree.io/gabriel.leite4@fatec.sp.gov.br" method="POST">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -477,13 +477,14 @@
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" placeholder="E-mail" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <input type="text" placeholder="E-mail" id="email" class="form-control" name="_replyto" required data-error="Please enter your email">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
                      <div class="col-md-12">
                       <div class="form-group">
-                        <input type="text" name="subject" placeholder="Assunto" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <input type="text" name="_subject" placeholder="Assunto" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <input type="text" name="_gotcha" style="display:none" />
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
